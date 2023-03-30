@@ -30,6 +30,4 @@ An image: ![Image alt text](https://via.placeholder.com/150 "Image title").
     "#;
 
     let mut parser = Parser::new(markdown.to_string());
-    let nodes = parser.parse();
-    print!("{:#?}", nodes);
 }
